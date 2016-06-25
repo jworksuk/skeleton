@@ -1,18 +1,18 @@
 {
-    "name": ":vendor/:package_name",
+    "name": "jworksuk/:package_name",
     "type": "library",
     "description": ":package_description",
     "keywords": [
-        ":vendor",
+        "jworksuk",
         ":package_name"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/jworksuk/:package_name",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Jesse James",
+            "email": "me@jworksuk.com",
+            "homepage": "http://www.jworksuk.com",
             "role": "Developer"
         }
     ],
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "jworksuk\\:package_name\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\": "tests"
+            "jworksuk\\:package_name\\": "tests"
         }
     },
     "scripts": {
